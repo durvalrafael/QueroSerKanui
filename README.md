@@ -34,8 +34,7 @@ Próximo a estação Villa Lobos - Jaguaré, em São Paulo, SP.
 	1. Escolha um dos testes do [DojoPuzzle](http://dojopuzzles.com/) ou da [Kanui](https://github.com/Kanui/QueroSerKanui/tree/master/testes);
 	2. Resolva-o com sua linguagem favorita e como se você estivesse resolvendo esse problema em um código de produção (live) (**Duração média:** de 30m à 2h);
 	3. Depois de resolvido, você tem duas opções:
-		1. Abrir um Pull Request informando seu e-mail/skype para contato ou;
-		2. Enviar um e-mail para **vagas.dev@kanui.com.br** com o **link do problema** (link para o GitHub, BitBucket, tarball/zip anexado).<br />
+		1. Abrir um Pull Request informando seu e-mail/skype para contato;
 
 2. Com hora marcada, um dos membros do nosso time entrará em contato com você por telefone ou Skype, para uma conversa descontraída sobre suas habilidades.<br />
 **Duração média:** de 30m à 40m
