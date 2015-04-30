@@ -33,8 +33,7 @@ Próximo a estação Villa Lobos - Jaguaré, em São Paulo, SP.
 1. Crie um fork desse projeto
 	1. Escolha um dos testes do [DojoPuzzle](http://dojopuzzles.com/) ou da [Kanui](https://github.com/Kanui/QueroSerKanui/tree/master/testes);
 	2. Resolva-o com sua linguagem favorita e como se você estivesse resolvendo esse problema em um código de produção (live) (**Duração média:** de 30m à 2h);
-	3. Depois de resolvido, você tem duas opções:
-		1. Abrir um Pull Request informando seu e-mail/skype para contato;
+	3. Depois de resolvido, abra um Pull Request informando seu e-mail/skype para contato;
 
 2. Com hora marcada, um dos membros do nosso time entrará em contato com você por telefone ou Skype, para uma conversa descontraída sobre suas habilidades.<br />
 **Duração média:** de 30m à 40m
