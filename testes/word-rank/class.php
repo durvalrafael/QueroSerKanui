@@ -3,13 +3,16 @@
 * Rank Class
 * @author  Durval Rafael <duurval@gmail.com>
 * @link http://github.com/durvalrafael
-* @return array
+* 
 */
 
 class Rank
 {
-	
-	function init($file, $regex)
+	/**
+	* init function
+	* @return array
+	*/
+	 function init($file, $regex)
 	{
 
 		#store file into a variable
