@@ -6,7 +6,6 @@
 * @return array
 */
 
-error_reporting(E_ALL);
 class Rank
 {
 	
