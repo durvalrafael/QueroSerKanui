@@ -5,16 +5,21 @@
 * @link http://github.com/durvalrafael
 * @return array
 */
+
+error_reporting(E_ALL);
 class Rank
 {
 	
 	function init($file, $regex)
 	{
+
 		#store file into a variable
-		$string = file_get_contents( dirname(__FILE__) . '/' . $file );
+
+		$file_content = file_get_contents( dirname(__FILE__) . '/' . $file );
+		
 		
 		#apply regex
-		preg_match_all($regex, $string, $matches);
+		preg_match_all($regex, $file_content, $matches);
 
 		#get matches
 		$count = array_count_values($matches[0]);	
@@ -25,8 +30,36 @@ class Rank
 			array_keys($count), SORT_ASC, 
 			$count);	
 
+		
+
+		try 
+		{	
+			if (!$file_content) {
+
+				throw new Exception('Parece que o arquivo <strong>' . $file .' </strong> não foi localizado');
+			}
+			if(@preg_match($regex, null) === false){
+				throw new Exception('Expressão reguar inválida ');
+			}
+
+			
+		} 
+		
+		catch (\Exception $e) 
+		{
+
+			echo "
+			<pre>
+			OOOOPS, tem caquinha no seu código:
+			
+			Detalhes: " . $e->getMessage() ;
+		}
+
+		
 		return $count;
 	}
+
+	
 
 }
 ?>
