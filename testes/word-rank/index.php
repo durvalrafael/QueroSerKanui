@@ -15,16 +15,17 @@
 	# Init class
 	$rank = new Rank;
 
-	# Store init cClass
+	# Store init Class
 	$array = $rank->init("data.txt", "/[aA-zZ|]{2,}/");
 
 	# Check if works
 	# Kint::dump($array);
 
 	# Sim, a 'chave' é o 'valor'
-	#
 	foreach ($array as $word => $times) :?>
-	<p>A palarva <strong><?php echo $word ?></strong> apareceu <strong> <?php echo $times ?> </strong> vezes</p>
+	
+		<p>A palarva <strong><?php echo $word ?></strong> apareceu <strong> <?php echo $times ?> </strong> vezes</p>
+	
 	<?php endforeach; ?>
 </body>
 </html>
